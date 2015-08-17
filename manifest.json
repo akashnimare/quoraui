@@ -1,0 +1,15 @@
+{
+    "name": "Quora Minimal UI",
+    "version": "1.0.2",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://www.quora.com/*"],
+            "js": ["main.js"]
+        }
+    ],
+  "web_accessible_resources": ["main.css"],
+    "icons": {
+        "128": "logo.png"
+    }
+}

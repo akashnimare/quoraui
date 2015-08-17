@@ -1,0 +1,52 @@
+.grid_page_right_col, .grid_page_left_col {
+    display: none !important
+;
+}
+
+body {
+    height: 100%;
+    word-wrap: break-word;
+    color: #333;
+    font-family: "Merriweather", serif;
+    font-size: 13px;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+
+.grid_page_center_col {
+    width: 710px  !important;
+    min-height: 2px !important;
+    margin-left: 3% !important;
+    padding-left: 190px !important;
+}
+
+span.question_text {
+    font-family: "Merriweather", serif ;
+    font-size: 30px;
+    line-height: 1.2em
+;
+}
+
+.AnswerBase, .inline_editor_content, .feed_type_answer .TruncatedAnswer, .AnswerListItem .TruncatedAnswer, .feed_type_answer .ExpandedAnswer, .AnswerListItem .ExpandedAnswer {
+    text-align: justify
+    ;
+    font-family: "Merriweather", serif ;
+    font-size: 1.8rem;
+    line-height: 1.2em;
+    letter-spacing: .11rem
+    
+;
+}
+
+ActionBar.sticky, ActionBar {
+    width: 650px;
+}
+
+div.Answer.ActionBar.ClsWithPageLocations.sticky {
+    width: 710px;
+}
+
+.ContentFooter {
+    font-family: "Merriweather", serif ;
+}
+
