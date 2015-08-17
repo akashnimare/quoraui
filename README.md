@@ -1,5 +1,3 @@
-# Quoraui
-Google Chrome extension to make the Quora minimal
 
 #Installation
 
