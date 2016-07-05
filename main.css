@@ -1,52 +1,192 @@
-.grid_page_right_col, .grid_page_left_col {
-    display: none !important
-;
+/*.grid_page_right_col, .grid_page_left_col {*/
+/*    display: none !important*/
+/*;*/
+/*}*/
+
+/*body {*/
+/*    height: 100%;*/
+/*    word-wrap: break-word;*/
+/*    color: #333;*/
+/*    font-family: "Merriweather", serif;*/
+/*    font-size: 13px;*/
+/*    overflow-y: scroll;*/
+/*    overflow-x: auto;*/
+/*}*/
+
+/*.grid_page_center_col {*/
+/*    width: 710px  !important;*/
+/*    min-height: 2px !important;*/
+/*    margin-left: 3% !important;*/
+/*    padding-left: 190px !important;*/
+/*}*/
+
+/*span.question_text {*/
+/*    font-family: "Merriweather", serif ;*/
+/*    font-size: 30px;*/
+/*    line-height: 1.2em*/
+/*;*/
+/*}*/
+
+/*.AnswerBase, .inline_editor_content, .feed_type_answer .TruncatedAnswer, .AnswerListItem .TruncatedAnswer, .feed_type_answer .ExpandedAnswer, .AnswerListItem .ExpandedAnswer {*/
+/*    text-align: justify*/
+/*    ;*/
+/*    font-family: "Merriweather", serif ;*/
+/*    font-size: 1.8rem;*/
+/*    line-height: 1.2em;*/
+/*    letter-spacing: .11rem*/
+    
+/*;*/
+/*}*/
+
+/*ActionBar.sticky, ActionBar {*/
+/*    width: 650px;*/
+/*}*/
+
+/*div.Answer.ActionBar.ClsWithPageLocations.sticky {*/
+/*    width: 710px;*/
+/*}*/
+
+/*.ContentFooter {*/
+/*    font-family: "Merriweather", serif ;*/
+/*}*/
+
+.question_related a {
+    font-size: 4px ;
+    font-weight: 100 ;
+    color: rgba(51, 51, 51, 0.85);
+}
+
+.AnswerListDiv {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.EndorseByTopicSidebar {
+    visibility: hidden;
+}
+
+.EventHeader {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 14px;
+}
+
+.ExpandedAnswer {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.ExpandedQuestionDetails {
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.IdentitySig, .ActorNameSig, .IdentityNameSig {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.QuestionText {
+    font-size: 22px;
+}
+
+.RelatedQuestions, .related_question {
+    font-size: 13px ;
+}
+
+.TopicNameSpan {
+    font-family: Source Sans Pro,sans-serif;
+}
+
+.TruncatedAnswer {
+    color: #757575;
+    font-size: 20px;
+}
+
+.TruncatedQText {
+    color: #757575;
+    font-size: 20px;
+}
+
+.activation_sidebar_header {
+    display: none;
+}
+
+.feed_item {
+    background: #fff;
+    border-radius: 9px;
+    box-shadow: 0 2px 6px 2px rgba(0,0,0,.05);
+    margin-bottom: 24px;
+    padding: 21px 22px 22px 22px;
+    position: relative;
+    transition: box-shadow .1s ease-out;
+    width: 100%;
+}
+
+.feed_item_answer_user {
+    font-family: Ubuntu;
+    font-weight: 400;
+}
+
+.layout_3col_left {
+    visibility: hidden;
+}
+
+.question_details {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.question_link {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.question_related li {
+    font-size: 10px;
+}
+
+.question_text {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.question_text_edit {
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 body {
-    height: 100%;
-    word-wrap: break-word;
-    color: #333;
-    font-family: "Merriweather", serif;
-    font-size: 13px;
-    overflow-y: scroll;
-    overflow-x: auto;
+    font-family: Source Sans Pro,sans-serif;
 }
 
-.grid_page_center_col {
-    width: 710px  !important;
-    min-height: 2px !important;
-    margin-left: 3% !important;
-    padding-left: 190px !important;
+div.HomeMainFeedHeader {
+    font-family: Source Sans Pro,sans-serif;
 }
 
-span.question_text {
-    font-family: "Merriweather", serif ;
-    font-size: 30px;
-    line-height: 1.2em
+div.layout_3col_right.home_feed_right_col {
+    display: none;
+}
+
+.RelatedQuestions {
+    font-size: 10px;
+    margin-left: 50px;
+    width: 370px
 ;
 }
 
-.AnswerBase, .inline_editor_content, .feed_type_answer .TruncatedAnswer, .AnswerListItem .TruncatedAnswer, .feed_type_answer .ExpandedAnswer, .AnswerListItem .ExpandedAnswer {
-    text-align: justify
-    ;
-    font-family: "Merriweather", serif ;
-    font-size: 1.8rem;
-    line-height: 1.2em;
-    letter-spacing: .11rem
-    
-;
-}
-
-ActionBar.sticky, ActionBar {
-    width: 650px;
-}
-
-div.Answer.ActionBar.ClsWithPageLocations.sticky {
-    width: 710px;
-}
-
-.ContentFooter {
-    font-family: "Merriweather", serif ;
+.QuestionStats {
+    display: none;
 }
 
